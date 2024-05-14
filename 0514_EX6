@@ -1,0 +1,19 @@
+words=['a','b','c','d','a','c','f']
+a=words.count('a') #count是算List裡有幾個
+f=words.count('f')
+g=words.count('g')
+print('a有:',a)
+print('f有:',f)
+print('g有:',g)
+
+
+ind=words.index('d') #變數.index(東西) 可以找東西在哪
+print('d的索引位置:',ind)
+
+#ind=words.index('z') #會出現錯誤。因為z不在串列裡
+
+start=0
+for i in range(words.count('c')):
+    ind=words.index('c',start)
+    print('C的索引:',ind)
+    start=ind+1
