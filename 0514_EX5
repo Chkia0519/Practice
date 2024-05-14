@@ -1,0 +1,3 @@
+cars=['bmw','benz','audi','toyota']
+cars.remove('audi') #變數.remove(要刪掉的東西)
+print(cars)
