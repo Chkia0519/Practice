@@ -1,0 +1,12 @@
+number=[10,20,30,40,50,60,70,80,90]
+
+print(number[0])
+print(number[-1])
+print(number[-2])
+             
+#切片
+print(number[2:6]) #從2抓到6
+print(number[3:]) #從3抓到最後
+print(number[:4]) #從0抓到4
+print(number[1:8:2]) #從1抓到8 間隔2(抓1.3.5.7的意思)
+print(number[-1::-1]) #從最後倒數回來
