@@ -1,0 +1,21 @@
+print('學生成績系統')
+students=[]
+score=list()
+while True:
+    q=input('輸入姓名查成績(按Q離開)')
+    if q.lower()=='q':
+        break
+    if students.count(q)==1:
+        ind=students.index(q)
+        print('學生:',students[ind],
+              '分數為:',score[ind])
+    else:
+        ans=input('是否加入此學生Y/N:')
+        if ans.lower()=='y':
+            s=int(input("請輸入分數:"))
+            students.append(q)
+            score.append(s)
+        else:
+            break
+        
+print('程式結束')
