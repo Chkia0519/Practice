@@ -1,4 +1,17 @@
 score=[80,90,100,70,60]
+#方法1
+
 for i in range(5):
   print(score[i])
 print("程式執行完畢")
+
+#方法2
+print(len(score))
+
+for i in range(len(score)):
+  print(score[i])
+print("程式執行完畢")
+
+#方法3
+for i in score:
+    print(i)
