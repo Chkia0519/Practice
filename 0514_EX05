@@ -1,0 +1,6 @@
+names=['biubiu','mary']
+names.append('JOHN') #append是在串列最後加上東西
+names.append('baboo')
+print(names)
+names.insert(1,"okaka") #insert(你要插入到第幾個,東西)
+print(names)
