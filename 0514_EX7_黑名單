@@ -1,0 +1,11 @@
+number=list()
+black=[10,15,39] #黑名單
+while len(number)<6: #list裡有6個數字就停止
+    num=int(input('輸入1-49之間的整數:'))
+    if 0<num<50:
+        if number.count(num)==0 and black.count(num)==0: #數字不重複且不在黑名單中就加入在number的list裡
+            number.append(num)
+#如果第一個if的條件為達成，就會回到第4行
+
+
+print(number)
