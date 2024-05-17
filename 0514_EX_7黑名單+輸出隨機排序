@@ -7,6 +7,6 @@ while len(number)<6:
             number.append(num)
 
 
-
+import random
+random.shuffle(number) #shuffle是把序列裡面的順序隨便排
 print(number)
-print(number.random(1,6))
