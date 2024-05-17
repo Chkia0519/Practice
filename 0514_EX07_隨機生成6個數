@@ -1,0 +1,11 @@
+import random
+number=list()
+black=[10,15,39]
+while len(number)<6:
+    num=random.randint(1,50)
+    if 0<num<50:
+        if number.count(num)==0 and black.count(num)==0:
+            number.append(num)
+            
+
+print(number)
